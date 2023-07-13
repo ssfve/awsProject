@@ -1,0 +1,58 @@
+
+Step 42: Connect to the Aurora database
+
+mysql -h labstack-b7cda654-4e64-4c3f-bf08-ba-lendingcluster-yjbr4dcrfcid.cluster-ro-cr4uzzg17axo.us-east-1.rds.amazonaws.com -P 3306 -u admin -p lending
+
+
+Step 43: Retrieve the first 50 records in the lending table
+
+SELECT * FROM lending_table LIMIT 50;
+
+
+Step 44: Find the total payment of each loan type in the lending table
+
+SELECT loan_type, SUM(CAST(payment AS decimal(18,2))) FROM lending_table GROUP BY loan_type;
+
+
+Step 49: Create external schema in Amazon Redshift
+
+ CREATE EXTERNAL SCHEMA lending_schema
+ FROM MYSQL
+ DATABASE 'lending'
+ URI 'INSERT-READER-INSTANCE-ENDPOINT'
+ IAM_ROLE 'INSERT-IAM-ROLE-ARN'
+ SECRET_ARN 'INSERT-SECRET-ARN';
+
+
+Step 52: Find the total payment of each loan type in the lending table 
+
+SELECT loan_type, SUM(CAST(payment AS decimal(18,2))) FROM lending_schema.lending_table GROUP BY loan_type;
+
+
+Step 54: Create a materialized view
+
+CREATE MATERIALIZED VIEW MV_Lending AS
+SELECT loan_type, SUM(CAST(payment AS decimal(18,2))) FROM lending_schema.lending_table GROUP BY loan_type;
+
+
+Step 57: Disable cache
+
+SET enable_result_cache_for_session TO OFF;
+
+
+
+Step 58: Retrieve all records from the materialized view
+
+SELECT * FROM MV_Lending;
+
+
+
+DIY: Hints
+
+1. To enable auto scaling in the Amazon Aurora cluster, use the following policy configurations: Target metric = Average connections of Aurora Replicas, Target value = 3 connections, Minimum capacity = 3 Aurora Replicas.
+
+2. Before recreating the external schema, you need to delete the one created in the practice session by using the following SQL command:
+
+DROP schema lending_schema CASCADE;
+
+3. After deletion, you can recreate the external schema by replacing the URI parameter with the Aurora cluster reader endpoint that enables load balancing.
