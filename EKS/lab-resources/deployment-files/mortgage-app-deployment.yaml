@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mortgage-app
+  namespace: bank-app
+  labels:
+    app: mortgage-app
+spec:
+  selector:
+    matchLabels:
+      app: mortgage-app
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: mortgage-app
+    spec:
+      containers:
+      - name: mortgage-container
+        image: [Enter your mortgage app image URI]
+        ports:
+            - containerPort: 80
+        resources:
+          limits:
+            memory: "100Mi"
+            cpu: "200m"

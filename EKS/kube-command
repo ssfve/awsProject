@@ -1,0 +1,7 @@
+eksctl version
+
+kubectl version --short --client
+
+aws --version
+
+kubectl apply -f deposit-app-deployment.yaml

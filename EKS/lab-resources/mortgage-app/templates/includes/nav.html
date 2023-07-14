@@ -1,0 +1,10 @@
+<div class="navbar">
+  <a href="{{ url_for('dashboard') }}" class="nav-link {% if home %}active{% endif %}">Home</a>
+      <div class="subnav">
+        <button class="subnavbtn">Account Management <i class="fa fa-caret-down"></i></button>
+        <div class="subnav-content">
+          <a href="{{ url_for('statement') }}" class="nav-link {% if statement %}active{% endif %}">Account Statement</a>
+          <a href="{{ url_for('viewaccount') }}" class="nav-link {% if viewaccount %}active{% endif %}">View Account</a>
+        </div>
+      </div>
+</div>
