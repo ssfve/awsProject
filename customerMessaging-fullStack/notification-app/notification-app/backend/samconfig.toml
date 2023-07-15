@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "multi-notification-app"
+s3_bucket = "<BUCKET_NAME>"
+s3_prefix = "multi-notification-app"
+region = "<AWS_REGION>"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "APIGatewayStageName=\"dev\" LambdaRole=\"<LAMBDA_ROLE_ARN>\" SQSRole=\"<SQS_ROLE_ARN>\" StepFunctionsRole=\"<STEP_FUNCTIONS_ROLE_ARN>\""

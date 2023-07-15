@@ -1,0 +1,219 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: MLN - Multi-language notification app
+
+Parameters:
+  StackName:
+    Type: String
+    Default: MLN-Stack
+    Description: Stack Name (injected at deployment time)
+  APIGatewayStageName:
+    Type: String
+    Default: dev
+    Description: Environment name used for API Gateway names
+  LambdaRole:
+    Type: String
+  SQSRole:
+    Type: String
+  StepFunctionsRole:
+    Type: String
+
+Globals:
+  Function:
+    Handler: app.lambda_handler
+    Runtime: python3.8
+    MemorySize: 3008
+    Timeout: 30
+    #Tracing: Active
+
+Resources:
+
+  #Serverless api
+  MlnApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      Name: !Sub
+        - MLNApp
+        - ResourceName: /mln
+      StageName: !Ref APIGatewayStageName
+      Cors:
+        AllowMethods: "'POST, GET, DELETE, PUT, PATCH, ANY'"
+        AllowHeaders: "'*'"
+        AllowOrigin: "'*'"
+        AllowCredentials: "'True'"
+      DefinitionBody:
+        swagger: '2.0'
+        info: {}
+        paths:
+          /announcement:
+            post:
+              responses:
+                "200":
+                  description: "200 response"
+                  headers:
+                    Access-Control-Allow-Origin:
+                      type: "string"
+                    Access-Control-Allow-Methods:
+                      type: "string"
+                    Access-Control-Allow-Headers:
+                      type: "string"
+                    Access-Control-Allow-Credentials:
+                      type: "string"
+              x-amazon-apigateway-integration:
+                credentials: !Ref SQSRole
+                httpMethod: POST
+                uri: !Sub "arn:aws:apigateway:${AWS::Region}:sqs:path/${AWS::AccountId}/MlnQueue"
+                requestTemplates:
+                  application/json: "{\n  \"statusCode\" : 200\n}\n"
+                requestParameters:
+                  integration.request.header.Content-Type: "'application/x-www-form-urlencoded'"
+                requestTemplates:
+                  application/json: "Action=SendMessage&MessageBody=$input.body"
+                responses:
+                  default:
+                    statusCode: "200"
+                    responseParameters:
+                      method.response.header.Access-Control-Allow-Methods: "'POST, GET, DELETE, PUT'"
+                      method.response.header.Access-Control-Allow-Headers: "'*'"
+                      method.response.header.Access-Control-Allow-Origin: "'*'"
+                      method.response.header.Access-Control-Allow-Credentials: "'True'"
+                    responseTemplates:
+                      application/json: "{\n Message has ben submitted to the SQS queue successfully. Check the Step Functions workflow  for the status.\n}\n"
+                passthroughBehavior: "never"
+                type: "aws"
+            options:
+              description : "post a message"
+              consumes:
+                - "application/json"
+              produces:
+                - "application/json"
+              responses:
+                "200":
+                  description: "200 response"
+                  headers:
+                    Access-Control-Allow-Origin:
+                      type: "string"
+                    Access-Control-Allow-Methods:
+                      type: "string"
+                    Access-Control-Allow-Headers:
+                      type: "string"
+                    Access-Control-Allow-Credentials:
+                      type: "string"
+              x-amazon-apigateway-integration:
+                responses:
+                  default:
+                    statusCode: "200"
+                    responseParameters:
+                      method.response.header.Access-Control-Allow-Methods: "'POST, GET, DELETE, PUT'"
+                      method.response.header.Access-Control-Allow-Headers: "'*'"
+                      method.response.header.Access-Control-Allow-Origin: "'*'"
+                      method.response.header.Access-Control-Allow-Credentials: "'True'"
+                    responseTemplates:
+                      application/json: "{\n Message has ben submitted to the SQS queue successfully. Check the Step Functions workflow  for the status.\n}\n"
+                requestTemplates:
+                  application/json: "{\n  \"statusCode\" : 200\n}\n"
+                passthroughBehavior: "when_no_match"
+                type: "mock"
+      EndpointConfiguration: REGIONAL
+    Metadata:
+      FinTag: /announcements
+
+  SQSInvokeFunction:
+    Type: AWS::Serverless::Function
+    DependsOn: MlnQueue
+    Properties:
+      FunctionName: !Sub ${AWS::StackName}-SQSInvokeFunction
+      CodeUri: src/sqs_invoke
+      Role: !Ref LambdaRole
+      Environment:
+        Variables:
+          StateMachineARN: !Ref EventStateMachine
+      Events:
+        MySQSEvent:
+          Type: SQS
+          Properties:
+            Queue: !GetAtt MlnQueue.Arn
+            BatchSize: 10
+  
+  #SQS queue for messages
+  MlnQueue: 
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: 'MlnQueue'
+      KmsMasterKeyId: 'alias/aws/sqs' #if encryption of message is not critical, you can comment this line
+
+  #Admin SNS topic
+  MlnEventAdmin:
+    Type: AWS::SNS::Topic
+    Properties: 
+      TopicName: mln-event-admin
+      KmsMasterKeyId: 'alias/aws/sns'
+
+  ComprehendFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub ${AWS::StackName}-ComprehendFunction
+      CodeUri: src/comprehend_function
+      Role: !Ref LambdaRole
+
+  TranslateFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub ${AWS::StackName}-TranslateFunction
+      CodeUri: src/translate_function
+      Role: !Ref LambdaRole
+      Environment:
+        Variables:
+          USER_TABLE: !Ref EventTable  
+
+  PinpointFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub ${AWS::StackName}-PinpointFunction
+      CodeUri: src/pinpoint_function
+      Role: !Ref LambdaRole
+      Environment:
+        Variables:
+          CALLER_ID: '+11235550101'
+          ORIG_NUMBER: '+11235550101'
+          APP_ID: 'pinpoint-app-id'
+          SENDER_EMAIL: 'doe@example.com'
+          USER_TABLE: !Ref EventTable
+
+  #Event DynamoDB table
+  EventTable:
+    Type: AWS::DynamoDB::Table
+    Properties: 
+      TableName: user_profiles
+      AttributeDefinitions: 
+        - AttributeName: event_id
+          AttributeType: S
+        - AttributeName: user_id
+          AttributeType: S
+      KeySchema: 
+        - AttributeName: event_id
+          KeyType: HASH
+        - AttributeName: user_id
+          KeyType: RANGE
+      ProvisionedThroughput: 
+        ReadCapacityUnits: 5
+        WriteCapacityUnits: 5
+
+  #Step functions state machine
+  EventStateMachine:
+    Type: AWS::Serverless::StateMachine
+    Properties:
+      DefinitionUri: src/statemachine/mln_flow_statemachine.json
+      Role: !Ref StepFunctionsRole
+      Tracing:
+        Enabled: true
+      DefinitionSubstitutions:
+        ComprehendFunctionArn: !GetAtt ComprehendFunction.Arn
+        TranslateFunctionArn: !GetAtt TranslateFunction.Arn
+        PinpointFunctionArn: !GetAtt PinpointFunction.Arn
+        RepEventAdminTopicArn: !Ref MlnEventAdmin        
+    
+Outputs:
+  MlnApi:
+    Description: 'API Gateway endpoint URL'
+    Value: !Sub 'https://${MlnApi}.execute-api.${AWS::Region}.amazonaws.com/dev/announcement/'

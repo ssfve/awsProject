@@ -1,0 +1,2102 @@
+[
+    {
+        "trans_id": 40008,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-09",
+        "amount": 55551
+    },
+    {
+        "trans_id": 29581,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-29",
+        "amount": 35032
+    },
+    {
+        "trans_id": 852,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-09",
+        "amount": 76558
+    },
+    {
+        "trans_id": 56833,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-19",
+        "amount": 59236
+    },
+    {
+        "trans_id": 79407,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-22",
+        "amount": 21862
+    },
+    {
+        "trans_id": 48562,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-17",
+        "amount": 17809
+    },
+    {
+        "trans_id": 82599,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-11",
+        "amount": 35650
+    },
+    {
+        "trans_id": 6464,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-22",
+        "amount": 19766
+    },
+    {
+        "trans_id": 42765,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-17",
+        "amount": 4420
+    },
+    {
+        "trans_id": 4235,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-22",
+        "amount": 74252
+    },
+    {
+        "trans_id": 76590,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-23",
+        "amount": 16507
+    },
+    {
+        "trans_id": 77214,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-12",
+        "amount": 29281
+    },
+    {
+        "trans_id": 45706,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 55650
+    },
+    {
+        "trans_id": 69725,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-21",
+        "amount": 49283
+    },
+    {
+        "trans_id": 23827,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-17",
+        "amount": 60824
+    },
+    {
+        "trans_id": 90226,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-18",
+        "amount": 30458
+    },
+    {
+        "trans_id": 27842,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-07",
+        "amount": 31714
+    },
+    {
+        "trans_id": 7631,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-31",
+        "amount": 8982
+    },
+    {
+        "trans_id": 83013,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-16",
+        "amount": 89809
+    },
+    {
+        "trans_id": 5758,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 40679
+    },
+    {
+        "trans_id": 85461,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 22905
+    },
+    {
+        "trans_id": 2805,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-31",
+        "amount": 99756
+    },
+    {
+        "trans_id": 94753,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-25",
+        "amount": 42375
+    },
+    {
+        "trans_id": 17725,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-24",
+        "amount": 93593
+    },
+    {
+        "trans_id": 437,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 74129
+    },
+    {
+        "trans_id": 87332,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-14",
+        "amount": 82984
+    },
+    {
+        "trans_id": 21115,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 19448
+    },
+    {
+        "trans_id": 77405,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-13",
+        "amount": 50552
+    },
+    {
+        "trans_id": 30068,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-30",
+        "amount": 1580
+    },
+    {
+        "trans_id": 85518,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-11",
+        "amount": 82658
+    },
+    {
+        "trans_id": 48435,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-10",
+        "amount": 86148
+    },
+    {
+        "trans_id": 28998,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-13",
+        "amount": 76493
+    },
+    {
+        "trans_id": 69603,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-23",
+        "amount": 76875
+    },
+    {
+        "trans_id": 11230,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 5987
+    },
+    {
+        "trans_id": 56560,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 96259
+    },
+    {
+        "trans_id": 8280,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-01",
+        "amount": 43959
+    },
+    {
+        "trans_id": 74634,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 46307
+    },
+    {
+        "trans_id": 53483,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 34206
+    },
+    {
+        "trans_id": 47467,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-06",
+        "amount": 10585
+    },
+    {
+        "trans_id": 57820,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-30",
+        "amount": 79776
+    },
+    {
+        "trans_id": 28193,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-03",
+        "amount": 69457
+    },
+    {
+        "trans_id": 18569,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 37223
+    },
+    {
+        "trans_id": 33083,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 61390
+    },
+    {
+        "trans_id": 67872,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-29",
+        "amount": 22358
+    },
+    {
+        "trans_id": 84144,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-21",
+        "amount": 12316
+    },
+    {
+        "trans_id": 56572,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-16",
+        "amount": 62369
+    },
+    {
+        "trans_id": 72471,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-12",
+        "amount": 43040
+    },
+    {
+        "trans_id": 16374,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-30",
+        "amount": 72376
+    },
+    {
+        "trans_id": 70443,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-03",
+        "amount": 87257
+    },
+    {
+        "trans_id": 4182,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-01",
+        "amount": 42446
+    },
+    {
+        "trans_id": 12967,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-26",
+        "amount": 84156
+    },
+    {
+        "trans_id": 74142,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-30",
+        "amount": 89034
+    },
+    {
+        "trans_id": 32702,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-09",
+        "amount": 87783
+    },
+    {
+        "trans_id": 61391,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 17640
+    },
+    {
+        "trans_id": 6457,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 17933
+    },
+    {
+        "trans_id": 93396,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 55118
+    },
+    {
+        "trans_id": 8899,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-14",
+        "amount": 25440
+    },
+    {
+        "trans_id": 26775,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-03",
+        "amount": 16729
+    },
+    {
+        "trans_id": 25963,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 8691
+    },
+    {
+        "trans_id": 47885,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-17",
+        "amount": 93683
+    },
+    {
+        "trans_id": 55491,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-23",
+        "amount": 96679
+    },
+    {
+        "trans_id": 15161,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-24",
+        "amount": 85597
+    },
+    {
+        "trans_id": 17640,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 68444
+    },
+    {
+        "trans_id": 1116,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-31",
+        "amount": 21420
+    },
+    {
+        "trans_id": 1784,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-01",
+        "amount": 45741
+    },
+    {
+        "trans_id": 30116,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-15",
+        "amount": 86580
+    },
+    {
+        "trans_id": 97640,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-31",
+        "amount": 49994
+    },
+    {
+        "trans_id": 91562,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-03",
+        "amount": 46780
+    },
+    {
+        "trans_id": 95104,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-01",
+        "amount": 1110
+    },
+    {
+        "trans_id": 84793,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-07",
+        "amount": 76249
+    },
+    {
+        "trans_id": 57592,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-17",
+        "amount": 64069
+    },
+    {
+        "trans_id": 88075,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-01",
+        "amount": 7615
+    },
+    {
+        "trans_id": 45008,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-14",
+        "amount": 14317
+    },
+    {
+        "trans_id": 10791,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 27796
+    },
+    {
+        "trans_id": 75455,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-04",
+        "amount": 10090
+    },
+    {
+        "trans_id": 52045,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-01",
+        "amount": 64966
+    },
+    {
+        "trans_id": 8769,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-26",
+        "amount": 16302
+    },
+    {
+        "trans_id": 10550,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 62972
+    },
+    {
+        "trans_id": 19108,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-09",
+        "amount": 86180
+    },
+    {
+        "trans_id": 84341,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-09",
+        "amount": 8438
+    },
+    {
+        "trans_id": 42843,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-02",
+        "amount": 30821
+    },
+    {
+        "trans_id": 28985,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-25",
+        "amount": 58929
+    },
+    {
+        "trans_id": 40103,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-21",
+        "amount": 24945
+    },
+    {
+        "trans_id": 96847,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 34713
+    },
+    {
+        "trans_id": 35885,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-29",
+        "amount": 67120
+    },
+    {
+        "trans_id": 57673,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 95443
+    },
+    {
+        "trans_id": 60089,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-16",
+        "amount": 48907
+    },
+    {
+        "trans_id": 72363,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 87774
+    },
+    {
+        "trans_id": 56583,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-24",
+        "amount": 44104
+    },
+    {
+        "trans_id": 63340,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-03",
+        "amount": 86378
+    },
+    {
+        "trans_id": 87612,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-13",
+        "amount": 61831
+    },
+    {
+        "trans_id": 82245,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-26",
+        "amount": 26297
+    },
+    {
+        "trans_id": 4898,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-15",
+        "amount": 96737
+    },
+    {
+        "trans_id": 47291,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-06",
+        "amount": 87735
+    },
+    {
+        "trans_id": 70636,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 76336
+    },
+    {
+        "trans_id": 55121,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-31",
+        "amount": 12266
+    },
+    {
+        "trans_id": 66258,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-22",
+        "amount": 17821
+    },
+    {
+        "trans_id": 22773,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 85632
+    },
+    {
+        "trans_id": 94293,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-31",
+        "amount": 88254
+    },
+    {
+        "trans_id": 33243,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-07",
+        "amount": 35056
+    },
+    {
+        "trans_id": 73113,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-10",
+        "amount": 60324
+    },
+    {
+        "trans_id": 31947,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 14430
+    },
+    {
+        "trans_id": 95082,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-21",
+        "amount": 89514
+    },
+    {
+        "trans_id": 53204,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-13",
+        "amount": 27051
+    },
+    {
+        "trans_id": 89883,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-26",
+        "amount": 12983
+    },
+    {
+        "trans_id": 46494,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-17",
+        "amount": 16553
+    },
+    {
+        "trans_id": 35514,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-16",
+        "amount": 16881
+    },
+    {
+        "trans_id": 28634,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-25",
+        "amount": 32459
+    },
+    {
+        "trans_id": 62493,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-21",
+        "amount": 3562
+    },
+    {
+        "trans_id": 59416,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-12",
+        "amount": 24704
+    },
+    {
+        "trans_id": 97978,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 71452
+    },
+    {
+        "trans_id": 25586,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-24",
+        "amount": 78006
+    },
+    {
+        "trans_id": 91723,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-17",
+        "amount": 28578
+    },
+    {
+        "trans_id": 13983,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-10",
+        "amount": 2057
+    },
+    {
+        "trans_id": 60155,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-17",
+        "amount": 43446
+    },
+    {
+        "trans_id": 64573,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 11106
+    },
+    {
+        "trans_id": 46543,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-09",
+        "amount": 53661
+    },
+    {
+        "trans_id": 56019,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-03",
+        "amount": 6228
+    },
+    {
+        "trans_id": 5216,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 21150
+    },
+    {
+        "trans_id": 21085,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-21",
+        "amount": 16111
+    },
+    {
+        "trans_id": 11354,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-22",
+        "amount": 57963
+    },
+    {
+        "trans_id": 43342,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-04",
+        "amount": 44964
+    },
+    {
+        "trans_id": 19670,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 22911
+    },
+    {
+        "trans_id": 68854,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-25",
+        "amount": 58730
+    },
+    {
+        "trans_id": 76418,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-09",
+        "amount": 74986
+    },
+    {
+        "trans_id": 98210,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-12",
+        "amount": 6332
+    },
+    {
+        "trans_id": 74575,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-15",
+        "amount": 98142
+    },
+    {
+        "trans_id": 9102,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-22",
+        "amount": 67123
+    },
+    {
+        "trans_id": 11230,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-15",
+        "amount": 62694
+    },
+    {
+        "trans_id": 50467,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-22",
+        "amount": 2437
+    },
+    {
+        "trans_id": 27721,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-12",
+        "amount": 91917
+    },
+    {
+        "trans_id": 63599,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 75270
+    },
+    {
+        "trans_id": 32820,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 31514
+    },
+    {
+        "trans_id": 63966,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-22",
+        "amount": 86652
+    },
+    {
+        "trans_id": 61212,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 50170
+    },
+    {
+        "trans_id": 23214,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 15961
+    },
+    {
+        "trans_id": 28221,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-09",
+        "amount": 12917
+    },
+    {
+        "trans_id": 76456,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-09",
+        "amount": 11796
+    },
+    {
+        "trans_id": 43777,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 34149
+    },
+    {
+        "trans_id": 32187,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-12",
+        "amount": 29018
+    },
+    {
+        "trans_id": 15075,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-01",
+        "amount": 92189
+    },
+    {
+        "trans_id": 42451,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-09",
+        "amount": 17348
+    },
+    {
+        "trans_id": 45594,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-28",
+        "amount": 98023
+    },
+    {
+        "trans_id": 70168,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-10",
+        "amount": 44594
+    },
+    {
+        "trans_id": 45793,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 88246
+    },
+    {
+        "trans_id": 54081,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 36867
+    },
+    {
+        "trans_id": 92851,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-01",
+        "amount": 41522
+    },
+    {
+        "trans_id": 74589,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-04",
+        "amount": 46384
+    },
+    {
+        "trans_id": 46995,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-16",
+        "amount": 79503
+    },
+    {
+        "trans_id": 75770,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 67433
+    },
+    {
+        "trans_id": 29637,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-13",
+        "amount": 47779
+    },
+    {
+        "trans_id": 11080,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-15",
+        "amount": 43912
+    },
+    {
+        "trans_id": 47594,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-30",
+        "amount": 2804
+    },
+    {
+        "trans_id": 34553,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-06",
+        "amount": 47476
+    },
+    {
+        "trans_id": 94517,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-16",
+        "amount": 23929
+    },
+    {
+        "trans_id": 18689,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-12",
+        "amount": 65266
+    },
+    {
+        "trans_id": 65456,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-15",
+        "amount": 51486
+    },
+    {
+        "trans_id": 25165,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-31",
+        "amount": 15888
+    },
+    {
+        "trans_id": 32390,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-09",
+        "amount": 66328
+    },
+    {
+        "trans_id": 85803,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-11",
+        "amount": 39294
+    },
+    {
+        "trans_id": 56368,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-25",
+        "amount": 78954
+    },
+    {
+        "trans_id": 16064,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-30",
+        "amount": 59230
+    },
+    {
+        "trans_id": 39575,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-16",
+        "amount": 76400
+    },
+    {
+        "trans_id": 42011,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-25",
+        "amount": 65326
+    },
+    {
+        "trans_id": 61061,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-23",
+        "amount": 55501
+    },
+    {
+        "trans_id": 97302,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 30891
+    },
+    {
+        "trans_id": 99597,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-14",
+        "amount": 3907
+    },
+    {
+        "trans_id": 14738,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 91378
+    },
+    {
+        "trans_id": 75145,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-26",
+        "amount": 69426
+    },
+    {
+        "trans_id": 27003,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-14",
+        "amount": 32557
+    },
+    {
+        "trans_id": 38648,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-02",
+        "amount": 13918
+    },
+    {
+        "trans_id": 83451,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-03",
+        "amount": 44027
+    },
+    {
+        "trans_id": 84933,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-19",
+        "amount": 94959
+    },
+    {
+        "trans_id": 11879,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 40541
+    },
+    {
+        "trans_id": 54530,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-13",
+        "amount": 2268
+    },
+    {
+        "trans_id": 93825,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 28716
+    },
+    {
+        "trans_id": 11934,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-25",
+        "amount": 38394
+    },
+    {
+        "trans_id": 42037,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 23971
+    },
+    {
+        "trans_id": 16994,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 47640
+    },
+    {
+        "trans_id": 6448,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-17",
+        "amount": 61136
+    },
+    {
+        "trans_id": 31564,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-24",
+        "amount": 67526
+    },
+    {
+        "trans_id": 22671,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-14",
+        "amount": 793
+    },
+    {
+        "trans_id": 53184,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-18",
+        "amount": 72188
+    },
+    {
+        "trans_id": 81347,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-18",
+        "amount": 1074
+    },
+    {
+        "trans_id": 27432,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-14",
+        "amount": 96290
+    },
+    {
+        "trans_id": 73175,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-15",
+        "amount": 16296
+    },
+    {
+        "trans_id": 95354,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-07",
+        "amount": 32382
+    },
+    {
+        "trans_id": 21046,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-03",
+        "amount": 63729
+    },
+    {
+        "trans_id": 81781,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-06",
+        "amount": 45989
+    },
+    {
+        "trans_id": 614,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-03",
+        "amount": 64081
+    },
+    {
+        "trans_id": 57463,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-13",
+        "amount": 51575
+    },
+    {
+        "trans_id": 81427,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-24",
+        "amount": 75173
+    },
+    {
+        "trans_id": 39360,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-19",
+        "amount": 30006
+    },
+    {
+        "trans_id": 9391,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-19",
+        "amount": 7317
+    },
+    {
+        "trans_id": 82398,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-14",
+        "amount": 12706
+    },
+    {
+        "trans_id": 44493,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 79846
+    },
+    {
+        "trans_id": 91087,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 6242
+    },
+    {
+        "trans_id": 97070,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-06",
+        "amount": 92193
+    },
+    {
+        "trans_id": 78574,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-31",
+        "amount": 49643
+    },
+    {
+        "trans_id": 62606,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-28",
+        "amount": 64950
+    },
+    {
+        "trans_id": 61464,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-02",
+        "amount": 73738
+    },
+    {
+        "trans_id": 96546,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 24349
+    },
+    {
+        "trans_id": 7948,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 41998
+    },
+    {
+        "trans_id": 52123,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-31",
+        "amount": 46122
+    },
+    {
+        "trans_id": 25057,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-18",
+        "amount": 80607
+    },
+    {
+        "trans_id": 39879,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-07",
+        "amount": 4961
+    },
+    {
+        "trans_id": 85554,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-01",
+        "amount": 57477
+    },
+    {
+        "trans_id": 87101,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 4758
+    },
+    {
+        "trans_id": 4361,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-24",
+        "amount": 59534
+    },
+    {
+        "trans_id": 16095,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-23",
+        "amount": 9122
+    },
+    {
+        "trans_id": 33285,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-06",
+        "amount": 82756
+    },
+    {
+        "trans_id": 61562,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 35196
+    },
+    {
+        "trans_id": 48881,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-18",
+        "amount": 66145
+    },
+    {
+        "trans_id": 56477,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-21",
+        "amount": 2769
+    },
+    {
+        "trans_id": 76106,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-01",
+        "amount": 54658
+    },
+    {
+        "trans_id": 28042,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-18",
+        "amount": 643
+    },
+    {
+        "trans_id": 54558,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 59227
+    },
+    {
+        "trans_id": 5217,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-17",
+        "amount": 23092
+    },
+    {
+        "trans_id": 72010,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-02",
+        "amount": 8965
+    },
+    {
+        "trans_id": 96432,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-06",
+        "amount": 40941
+    },
+    {
+        "trans_id": 99946,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-14",
+        "amount": 28893
+    },
+    {
+        "trans_id": 76699,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-10",
+        "amount": 23568
+    },
+    {
+        "trans_id": 26447,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-23",
+        "amount": 13948
+    },
+    {
+        "trans_id": 8644,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-03",
+        "amount": 86743
+    },
+    {
+        "trans_id": 57652,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-18",
+        "amount": 31621
+    },
+    {
+        "trans_id": 15039,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-01",
+        "amount": 89385
+    },
+    {
+        "trans_id": 38820,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-22",
+        "amount": 60844
+    },
+    {
+        "trans_id": 36904,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-04",
+        "amount": 47927
+    },
+    {
+        "trans_id": 11618,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-06",
+        "amount": 17668
+    },
+    {
+        "trans_id": 80363,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 15679
+    },
+    {
+        "trans_id": 69574,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-07",
+        "amount": 34660
+    },
+    {
+        "trans_id": 8760,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-03",
+        "amount": 75427
+    },
+    {
+        "trans_id": 49920,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-06",
+        "amount": 72873
+    },
+    {
+        "trans_id": 75522,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-19",
+        "amount": 82451
+    },
+    {
+        "trans_id": 17411,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-04",
+        "amount": 50523
+    },
+    {
+        "trans_id": 49006,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-30",
+        "amount": 18704
+    },
+    {
+        "trans_id": 46100,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-25",
+        "amount": 80213
+    },
+    {
+        "trans_id": 58094,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-29",
+        "amount": 86633
+    },
+    {
+        "trans_id": 18019,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-04",
+        "amount": 81621
+    },
+    {
+        "trans_id": 13368,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-06",
+        "amount": 21996
+    },
+    {
+        "trans_id": 34261,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-28",
+        "amount": 14336
+    },
+    {
+        "trans_id": 35546,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-21",
+        "amount": 16826
+    },
+    {
+        "trans_id": 14775,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-23",
+        "amount": 9779
+    },
+    {
+        "trans_id": 94387,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-16",
+        "amount": 20857
+    },
+    {
+        "trans_id": 68588,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 6592
+    },
+    {
+        "trans_id": 97872,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-02",
+        "amount": 78039
+    },
+    {
+        "trans_id": 3612,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-13",
+        "amount": 5353
+    },
+    {
+        "trans_id": 98773,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-19",
+        "amount": 40473
+    },
+    {
+        "trans_id": 97487,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-30",
+        "amount": 76998
+    },
+    {
+        "trans_id": 65493,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-25",
+        "amount": 27532
+    },
+    {
+        "trans_id": 64971,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 22550
+    },
+    {
+        "trans_id": 58080,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-31",
+        "amount": 99773
+    },
+    {
+        "trans_id": 77140,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-04",
+        "amount": 98201
+    },
+    {
+        "trans_id": 18791,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 92298
+    },
+    {
+        "trans_id": 7187,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-01",
+        "amount": 18991
+    },
+    {
+        "trans_id": 78457,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-14",
+        "amount": 6788
+    },
+    {
+        "trans_id": 79858,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-15",
+        "amount": 40036
+    },
+    {
+        "trans_id": 6360,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 17454
+    },
+    {
+        "trans_id": 44916,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-18",
+        "amount": 68327
+    },
+    {
+        "trans_id": 39358,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 13819
+    },
+    {
+        "trans_id": 29135,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-04",
+        "amount": 77178
+    },
+    {
+        "trans_id": 76509,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-04",
+        "amount": 56827
+    },
+    {
+        "trans_id": 23692,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-25",
+        "amount": 84173
+    },
+    {
+        "trans_id": 82336,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-15",
+        "amount": 48109
+    },
+    {
+        "trans_id": 84511,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-16",
+        "amount": 90754
+    },
+    {
+        "trans_id": 2620,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-21",
+        "amount": 46404
+    },
+    {
+        "trans_id": 57968,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-24",
+        "amount": 32467
+    },
+    {
+        "trans_id": 89898,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-22",
+        "amount": 81546
+    },
+    {
+        "trans_id": 87926,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-22",
+        "amount": 7251
+    },
+    {
+        "trans_id": 69620,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-13",
+        "amount": 46604
+    },
+    {
+        "trans_id": 64319,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 6006
+    },
+    {
+        "trans_id": 87123,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-25",
+        "amount": 65123
+    },
+    {
+        "trans_id": 26801,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-23",
+        "amount": 10892
+    },
+    {
+        "trans_id": 92933,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-12",
+        "amount": 58961
+    },
+    {
+        "trans_id": 1491,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-31",
+        "amount": 64442
+    },
+    {
+        "trans_id": 35954,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-12",
+        "amount": 34498
+    },
+    {
+        "trans_id": 62073,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-16",
+        "amount": 34360
+    },
+    {
+        "trans_id": 6866,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-30",
+        "amount": 94104
+    },
+    {
+        "trans_id": 41500,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-12",
+        "amount": 39445
+    },
+    {
+        "trans_id": 68574,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-24",
+        "amount": 54134
+    },
+    {
+        "trans_id": 65790,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-28",
+        "amount": 96950
+    },
+    {
+        "trans_id": 18613,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 58695
+    },
+    {
+        "trans_id": 63071,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-21",
+        "amount": 13003
+    },
+    {
+        "trans_id": 2022,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-10",
+        "amount": 53764
+    },
+    {
+        "trans_id": 8012,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-20",
+        "amount": 80154
+    },
+    {
+        "trans_id": 31100,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 94601
+    },
+    {
+        "trans_id": 57715,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 46624
+    },
+    {
+        "trans_id": 2069,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-08",
+        "amount": 83760
+    },
+    {
+        "trans_id": 32494,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-03",
+        "amount": 8254
+    },
+    {
+        "trans_id": 68794,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-11-04",
+        "amount": 75371
+    },
+    {
+        "trans_id": 7526,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-30",
+        "amount": 95867
+    },
+    {
+        "trans_id": 8099,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-21",
+        "amount": 15140
+    },
+    {
+        "trans_id": 30982,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-26",
+        "amount": 60010
+    },
+    {
+        "trans_id": 98798,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-27",
+        "amount": 60319
+    },
+    {
+        "trans_id": 29033,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 15577
+    },
+    {
+        "trans_id": 23657,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-23",
+        "amount": 81789
+    },
+    {
+        "trans_id": 11066,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-05",
+        "amount": 22618
+    },
+    {
+        "trans_id": 64673,
+        "trans_message": "Amount withdrawn",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-10",
+        "amount": 13233
+    },
+    {
+        "trans_id": 77792,
+        "trans_message": "Amount transferred",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-31",
+        "amount": 15026
+    },
+    {
+        "trans_id": 68565,
+        "trans_message": "Amount deposited",
+        "acc_id": 360110001,
+        "last_updated_date": "2022-10-10",
+        "amount": 71934
+    }
+]
